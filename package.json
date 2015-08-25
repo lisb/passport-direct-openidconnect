@@ -1,0 +1,28 @@
+{
+  "name": "passport-direct-openidconnect",
+  "version": "0.1.0",
+  "description": "Direct OpenID Connect authentication strategy for Passport and Node.js.",
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisb/passport-direct-openidconnect.git"
+  },
+  "keywords": [
+    "direct",
+    "passport",
+    "openid",
+    "openidconnect"
+  ],
+  "author": "L is B corp.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lisb/passport-direct-openidconnect/issues"
+  },
+  "homepage": "https://github.com/lisb/passport-direct-openidconnect#readme",
+  "dependencies": {
+    "passport-openidconnect": "0.0.1"
+  }
+}
