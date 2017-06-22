@@ -15,7 +15,7 @@ Direct OpenID Connect authentication strategy for Passport and Node.js.
         clientSecret: DIRECT_OPENID_CLIENT_SECRET,
         callbackURL: "http://www.example.com/auth/direct/callback"
       },
-      function(accessToken, refreshToken, profile, done) {
+      function(iss, sub, profile, accessToken, refreshToken, done) {
         User.findOrCreate(..., function(err, user) {
           if (err) { return done(err); }
           done(null, user);
